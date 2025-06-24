@@ -13,17 +13,9 @@ My background spans engineering, computer science, and healthcare. I received my
 
 Research Interest
 ======
-My research explores how artificial intelligence can support early diagnosis, personalized rehabilitation, and continuous monitoring for individuals with chronic disease. I am particularly interested in building theory-driven, human-centered AI systems that integrate cognitive neuroscience, affective computing, and clinical insights. My current work focuses on:
+My research focuses on designing AI systems that support early diagnosis, rehabilitation, and personalized care for individuals with Alzheimer’s Disease and Related Dementias (ADRD). Drawing on insights from cognitive science, affective computing, and clinical practice, I explore how language, brain signals, and cognitive models can be used to develop trustworthy and adaptive AI tools. I am particularly interested in referential communication-based screening, EEG-driven neurofeedback for memory enhancement, and the use of large language models for interpreting unstructured clinical data. I also apply explainable machine learning techniques to investigate modifiable risk factors and to support individualized treatment in chronic conditions such as diabetes or mental disorders. My long-term goal is to build integrated, human-centered AI ecosystems that enhance quality of life and clinical outcomes for cognitively vulnerable populations.
 
-	•	AI for Early Diagnosis of ADRD: Developing screening tools based on referential communication tasks and language analysis, optimized for accessibility, cultural adaptability, and real-world use by older adults.
 
-	•	Real-time Neurofeedback Rehabilitation: Designing ERP-based neurofeedback systems to enhance cognitive functions such as short-term memory, using EEG signals to deliver personalized, closed-loop visual feedback.
-
-	•	Trustworthy Generative AI for Patient Support: Leveraging large language models and multimodal sensing to interpret cognitive and affective states of PwADRD, with the goal of building responsive AI agents grounded in Theory of Mind.
-
-	•	Explainable Machine Learning in Clinical Contexts: Applying interpretable ML methods to identify modifiable risk factors (e.g., sex-specific trajectories, nutrition) using electronic health records and longitudinal data.
-  
-	•	Foundations for Personalized Chronic Care: Extending AI architectures to model lifestyle-related variables in chronic diseases such as diabetes, integrating domain knowledge through knowledge graphs and LLMs for decision support.
-
-My long-term vision is to develop an ecosystem of AI-powered tools that dynamically adapt to individual cognitive states, supporting both diagnosis and day-to-day interaction, while ensuring transparency, trust, and equity in clinical AI systems.
-
+For Prospective Students
+======
+I am looking for highly motivated PhD students with a background in computer science, biomedical engineering, or a related field. Ideal candidates will have experience in machine decision-making, and an interest in applying AI methods—such as optimization, learning under constraints, and human-centered modeling—to real-world healthcare problems. Prior experience with clinical trial data, neurocognitive assessment, or multimodal biomedical signals (e.g., language, brian signal) is highly desirable. If you are interested in developing explainable, trustworthy AI systems for healthcare, I encourage you to reach out to me via email at zimingliu9@gmail.com.
