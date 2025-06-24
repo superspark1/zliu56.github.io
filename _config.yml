@@ -22,7 +22,7 @@ repository               : #"academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/profile.jpeg"
+  avatar           : "profile.jpeg"
   name             : "Ziming Liu"
   pronouns         : # example: "she/her"  
   bio              : "Researcher interested in artificial intelligence, healthcare, and human cognition"
@@ -60,7 +60,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "linkedin.com/in/ziming-liu-a333b7147"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
