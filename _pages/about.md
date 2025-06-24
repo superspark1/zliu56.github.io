@@ -1,15 +1,17 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-My name is Ziming Liu
+I’m currently a Postdoctoral Researcher in the Department of Endocrinology at Brigham and Women’s Hospital and Harvard Medical School, where I’m fortunate to work with Professor Alexander Turchin and Professor Marinka Žitnik on AI-driven clinical research. Starting Fall 2025, I’ll be joining the Department of Computer Science at the University of Oklahoma as an Assistant Professor.
 
-A data-driven personal website
+My background spans engineering, computer science, and healthcare. I received my Ph.D. in Mechanical Engineering from the University of Tennessee, Knoxville, where I was advised by Professor Xiaopeng Zhao. Before that, I earned a B.S. in Mechanical Engineering and Applied Mathematics from Lipscomb University, and an M.S. in Computer Science from UTK.
+
+Research Interest
 ======
 Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
