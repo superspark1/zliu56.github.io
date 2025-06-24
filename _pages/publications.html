@@ -11,26 +11,31 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
+<div class="publications-list">
+  {% assign pubs = site.publications | sort: 'date' | reverse %}
+  {% for post in pubs %}
+    <div class="pub-item" style="margin-bottom: 1.5em;">
+      <p style="margin: 0;">
+        <strong>
+          {% if post.link %}
+            <a href="{{ post.link }}">{{ post.title }}</a>
+          {% else %}
+            {{ post.title }}
+          {% endif %}
+        </strong>
+      </p>
+      {% if post.authors %}
+        <p style="margin: 0;">{{ post.authors }}</p>
       {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+      {% if post.venue or post.date %}
+        <p style="margin: 0;">
+          {% if post.venue %}{{ post.venue }}{% endif %}
+          {% if post.date %} • {{ post.date | date: "%b %Y" }}{% endif %}
+        </p>
+      {% endif %}
+    </div>
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+</div>
 
 
 

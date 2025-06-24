@@ -7,6 +7,35 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+<h2>Teaching</h2>
+
+{% assign teaching_sorted = site.teaching | where_exp: "post", "post.role" %}
+{% assign grouped_by_role = teaching_sorted | group_by: "role" %}
+
+{% for group in grouped_by_role %}
+  <h3>{{ group.name }}</h3>
+  <ul>
+    {% for item in group.items %}
+      <li>
+        <strong>{{ item.title }}</strong><br />
+        {% if item.courses %}
+          {% for course in item.courses %}
+            {{ course.name }} ({{ course.term }})<br />
+          {% endfor %}
+        {% else %}
+          {{ item.course }}{% if item.term %} ({{ item.term }}){% endif %}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+<hr />
+
+<h2>Student Supervision</h2>
+{% assign student_supervision = site.teaching | where: "supervision", true %}
+{% for item in student_supervision %}
+  <div class="student-supervision">
+    {{ item.content | markdownify }}
+  </div>
 {% endfor %}
