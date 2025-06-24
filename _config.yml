@@ -22,12 +22,12 @@ repository               : #"academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "images/profile.png"
   name             : "Ziming Liu"
   pronouns         : # example: "she/her"  
   bio              : "Researcher interested in artificial intelligence, healthcare, and human cognition"
   location         : "Boston, MA"
-  employer         : "Brigham and Women's Hospital"
+  employer         : "Brigham and Womens Hospital"
   uri              : # URL
   email            : "zliu56@bwh.harvard.edu" 
 
